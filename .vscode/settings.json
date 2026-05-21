@@ -1,55 +1,55 @@
 {
   "repoType": "utility",
-  "workbench.colorTheme": "One Dark Pro",
-  
+  "workbench.colorTheme": "Nord",
+
   "editor.fontSize": 13,
   "editor.lineHeight": 1.6,
   "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
-  
+
   "[markdown]": {
     "editor.wordWrap": "on",
     "editor.formatOnSave": true
   },
-  
+
   "[json]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  
+
   "[bash]": {
     "editor.formatOnSave": true
   },
-  
+
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
     "**/node_modules": true
   },
-  
+
   "files.associations": {
     ".env.example": "env",
     ".env.*": "env",
     "*.template": "text",
     "*.template.env": "env"
   },
-  
+
   "extensions.recommendations": [
     "esbenp.prettier-vscode",
     "shellformat.shell-format",
     "ms-vscode.makefile-tools"
   ],
-  
+
   "editor.trimAutoWhitespace": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  
+
   "editor.renderWhitespace": "all",
   "editor.bracketPairColorization.enabled": true,
-  
+
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
-  
+
   "comments.collapseAll": true,
   "comments.openPanel": "neverOpen"
 }

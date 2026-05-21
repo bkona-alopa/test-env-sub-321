@@ -26,7 +26,7 @@ This skill detects when you open a repository and asks what type of repo it is. 
 ## Supported Repository Types
 
 ### 🛠️ **Utility**
-- **Theme**: One Dark Pro (dark, focused)
+- **Theme**: Nord (cool, calm colors)
 - **Purpose**: Helper libraries, toolkits, shared utilities
 - **Example**: `test-env-sub-321` (environment substitution utility)
 
@@ -36,7 +36,7 @@ This skill detects when you open a repository and asks what type of repo it is. 
 - **Example**: User service, Payment service
 
 ### 📚 **Library**
-- **Theme**: Nord (cool, calm colors)
+- **Theme**: Solarized Dark (warm, comfortable)
 - **Purpose**: Reusable packages, SDKs, frameworks
 - **Example**: React component library, API client
 
@@ -51,7 +51,7 @@ This skill detects when you open a repository and asks what type of repo it is. 
 - **Example**: React app, Vue frontend
 
 ### 🧪 **Testing/QA**
-- **Theme**: Solarized Dark (soft, comfortable)
+- **Theme**: Monokai Pro (professional, bold)
 - **Purpose**: Test suites, QA automation, testing frameworks
 - **Example**: E2E test suite, load testing scripts
 
@@ -113,7 +113,7 @@ Want to switch repo type themes?
 ## Example: Current Repository
 
 This repository (`test-env-sub-321`) is a **utility** repo, so it uses:
-- **Theme**: One Dark Pro (dark, focused atmosphere)
+- **Theme**: Nord (cool, calm atmosphere)
 - **Font Size**: 13px
 - **Line Height**: 1.6
 
