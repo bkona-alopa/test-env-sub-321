@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "shellformat.shell-format",
+    "ms-vscode.makefile-tools",
+    "GitKraken.gitkraken-gitlens",
+    "eamodio.gitlens",
+    "DavidAnson.vscode-markdownlint",
+    "ms-vscode.makefile-tools"
+  ]
+}
