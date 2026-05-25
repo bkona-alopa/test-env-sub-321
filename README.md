@@ -64,10 +64,10 @@ Environment substitution is a technique used to automatically replace placeholde
 
 ### Why Use It?
 
-✅ **Consistency**: Same code, same configuration templates across all environments  
-✅ **Automation**: Reduce manual errors through automated variable replacement  
-✅ **Security**: Keep sensitive data separate from source code  
-✅ **Scalability**: Easily add new environments without code changes  
+✅ **Consistency**: Same code, same configuration templates across all environments
+✅ **Automation**: Reduce manual errors through automated variable replacement
+✅ **Security**: Keep sensitive data separate from source code
+✅ **Scalability**: Easily add new environments without code changes
 
 ---
 
@@ -88,22 +88,22 @@ Environment substitution is a technique used to automatically replace placeholde
 
 ## 📌 Use Cases
 
-1. **🗄️ Database Configuration**  
+1. **🗄️ Database Configuration**
    Swap database endpoints, credentials, and connection pools based on environment
 
-2. **🌐 API Endpoints**  
+2. **🌐 API Endpoints**
    Use different API URLs and base paths for different environments
 
-3. **🔑 Secrets Management**  
+3. **🔑 Secrets Management**
    Inject API keys, tokens, passwords, and certificates at runtime
 
-4. **📦 Resource Naming**  
+4. **📦 Resource Naming**
    Update AWS S3 buckets, RDS instances, VPCs, and other resources per environment
 
-5. **📊 Logging and Monitoring**  
+5. **📊 Logging and Monitoring**
    Configure different log levels, monitoring tools, and alerting thresholds
 
-6. **⚙️ Feature Flags**  
+6. **⚙️ Feature Flags**
    Enable/disable features based on environment
 
 ---
@@ -309,7 +309,7 @@ resource "aws_db_instance" "main" {
   password             = var.db_password
   db_name              = "production"
   skip_final_snapshot  = false
-  
+
   tags = {
     Name        = "prod-db"
     Environment = "production"
@@ -482,13 +482,13 @@ Please be respectful and constructive in all interactions. We're all here to hel
 <details>
 <summary><strong>❓ Common Questions</strong></summary>
 
-**Q: How do I handle sensitive secrets?**  
+**Q: How do I handle sensitive secrets?**
 A: Use AWS Secrets Manager, HashiCorp Vault, or Azure Key Vault. Never commit secrets to version control.
 
-**Q: Can I use this with Docker?**  
+**Q: Can I use this with Docker?**
 A: Yes! Docker Compose supports environment variable substitution natively. See the docs for examples.
 
-**Q: Does this work with Kubernetes?**  
+**Q: Does this work with Kubernetes?**
 A: Absolutely! Use ConfigMaps and Secrets for dynamic configuration injection.
 
 </details>
